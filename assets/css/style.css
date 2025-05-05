@@ -1,3 +1,10 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 /* Haut de page */
 
 /* parent */
@@ -83,12 +90,21 @@ h1 {
     font-size: 2.5rem;
 }
 
+.primo-milieu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    padding: 0 17.5rem;
+}
+
 
 .tableau {
     display: flex;
     justify-content: space-around;
     margin-top: 8rem;
-    width: 98%;
+    width: 86.6%;
     border: 2px solid black;
     padding: 0 2rem;
     padding-bottom: 1rem;
@@ -114,3 +130,26 @@ h1 {
     height: 0.5rem;
     background: linear-gradient(90deg,rgba(243, 229, 62, 1) 0%, rgba(249, 177, 47, 1) 100%);
 }
+
+.bas_de_page {
+    text-align: center;
+    width: 90%;
+    border: 2px solid black;
+}
+
+.tritexte {
+    display: flex;
+}
+
+.img_deux {
+    border: 2px solid black;
+    width: 11%;
+    padding: 0 10rem;
+}
+
+.texte_gras {
+    text-align: center;
+    border: 2px solid black;
+    width: 54.2%;
+}
+
