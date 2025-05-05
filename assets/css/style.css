@@ -70,6 +70,8 @@
 /* Haut de page */
 
 /* Milieu de page */
+
+/* enfants */
 .Textes {
     border: 2px solid black;
     padding: 0 10rem;
@@ -79,4 +81,36 @@
 
 h1 {
     font-size: 2.5rem;
+}
+
+
+.tableau {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+    width: 98%;
+    border: 2px solid black;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+}
+
+.boutons button {
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
+}
+
+.encadre {
+    background-color: #FDFBE0;
+}
+
+.barre_bleue {
+    height: 0.5rem;
+    background: linear-gradient(90deg, rgba(157, 169, 243, 1) 0%, rgba(156, 197, 242, 1) 100%);;
+}
+
+.barre_orange {
+    height: 0.5rem;
+    background: linear-gradient(90deg,rgba(243, 229, 62, 1) 0%, rgba(249, 177, 47, 1) 100%);
 }
