@@ -20,6 +20,7 @@
     text-align: right;
 }
 
+/* parent */
 .interfaces_second {
     border: 2px solid black;
     width: 100%;
@@ -32,7 +33,35 @@
     padding: 0 10rem;
 }
 
+/* enfants */
 .logo {
     border: 2px solid red;
     width: 10%;
+    font-size: 1.5rem;
+}
+
+.navigation {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.navigation2 {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.menu {
+    border: 2px solid black;
+    text-align: right;
+    width: 34%;
+}
+
+.menu2 {
+    border: 2px solid black;
+    width: 4%;
+    text-align: right;
 }
