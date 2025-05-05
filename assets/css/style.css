@@ -1,0 +1,38 @@
+/* parent */
+.interfaces {
+    border: 2px solid black;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color: #9CC7F2;
+    padding: 0 10rem;
+}
+
+/* enfants */
+.interface_un {
+    border: 2px solid black;
+    width: 40%;
+}
+
+.interface_deux {
+    border: 2px solid black;
+    width: 40%;
+    text-align: right;
+}
+
+.interfaces_second {
+    border: 2px solid black;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 10rem;
+}
+
+.logo {
+    border: 2px solid red;
+    width: 10%;
+}
