@@ -105,6 +105,7 @@ button {
 }
 
 .encadre2 {
+    background-color: rgb(235, 238, 251);
     width: 40%;
     border-radius: 6px;
     padding: 1rem;
