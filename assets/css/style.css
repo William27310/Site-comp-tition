@@ -170,3 +170,22 @@ h1 {
     padding: 0 10rem;
 }
 
+.titre {
+    padding: 0 10rem;
+    margin-top: 4rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.etudiant {
+    border: 2px solid black;
+    width: 50%;
+}
+
+.mot {
+    width: 100%;
+    margin-top: 4rem;
+    padding: 0 10rem;
+
+}
