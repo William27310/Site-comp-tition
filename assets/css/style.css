@@ -80,6 +80,7 @@ h1 {
 .primo-milieu {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(255, 250, 238);
 }
 
 .img {
@@ -134,34 +135,23 @@ button {
 /* parent */
 .tritexte {
     display: flex;
-    justify-content: space-between;
 }
 
-.img_un {
-    padding: 0 8rem;
-    width: 60%;
+.background {
+    background-color: rgb(255, 250, 238);
+    padding-top: 1rem;
+    margin-top: 8rem;
 }
+
 
 .premier_texte {
     text-align: center;
-    width: 54.2%;
-}
 
-.img_deux {
-    padding: 0 8rem;
-    width: 60%;
-    height: 51%;
 }
 
 .second_texte {
     text-align: center;
     width: 54.2%;
-}
-
-.img_trois {
-    padding: 0 8rem;
-    width: 60%;
-    height: 51%;
 }
 
 .troisieme_texte {
@@ -182,24 +172,21 @@ button {
 /* parent */
 .titre {
     padding: 0 10rem;
-    margin-top: 4rem;
     display: flex;
     padding-bottom: 3rem;
 }
 
 .etudiant {
     width: 55%;
-
 }
 
 .employeur {
     width: 40%;
-
 }
 
 .mot {
     width: 100%;
-    margin-top: 8rem;
+    margin-top: 2rem;
     padding: 0 10rem;
     font-size: 2.5rem;
     font-weight: bold;
@@ -224,4 +211,8 @@ button {
 iframe {
     height: 18rem;
     width: 28rem;
+}
+
+.dernier {
+    margin-top: 8rem;
 }
