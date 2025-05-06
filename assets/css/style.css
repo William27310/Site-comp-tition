@@ -133,6 +133,7 @@ button {
 
 .tritexte {
     display: flex;
+    justify-content: space-around;
 }
 
 .img_deux {
