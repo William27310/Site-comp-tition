@@ -82,8 +82,6 @@ h1 {
     background-color: rgb(255, 250, 238);
 }
 
-
-
 .tableau {
     display: flex;
     justify-content: space-around;
@@ -114,13 +112,13 @@ button {
 }
 
 .barre_bleue {
-    margin-top: -1rem;
+    margin-top: -1.5rem;
     height: 0.5rem;
     background: linear-gradient(90deg, rgba(157, 169, 243, 1) 0%, rgba(156, 197, 242, 1) 100%);;
 }
 
 .barre_orange {
-    margin-top: -1rem;
+    margin-top: -1.5rem;
     height: 0.5rem;
     background: linear-gradient(90deg,rgba(243, 229, 62, 1) 0%, rgba(249, 177, 47, 1) 100%);
 }
