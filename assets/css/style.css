@@ -58,7 +58,6 @@ body {
 
 .menu {
     text-align: right;
-    width: 34%;
 }
 
 .menu2 {
@@ -72,7 +71,6 @@ body {
 /* enfants */
 .Textes {
     padding: 0 10rem;
-    width: 35%;
     margin-top: 8rem;
 }
 
@@ -86,21 +84,18 @@ h1 {
 }
 
 .img {
-    padding: 0 17.5rem;
+    padding: 0 12rem;
 }
 
 
 .tableau {
     display: flex;
     justify-content: space-around;
-    margin-top: 8rem;
-    width: 86.6%;
-    border: 2px solid black;
-    padding: 0 2rem;
+    padding: 0 4rem;
     padding-bottom: 1rem;
 }
 
-.boutons button {
+button {
     padding: 0.5rem;
     color: white;
     font-weight: bold;
@@ -109,12 +104,22 @@ h1 {
 
 .encadre {
     background-color: #FDFBE0;
-    padding: 0 10rem;
+    border: 2px solid black;
+    width: 40%;
+}
+
+.encadre2 {
+    border: 2px solid black;
+    width: 40%;
 }
 
 .barre_bleue {
     height: 0.5rem;
     background: linear-gradient(90deg, rgba(157, 169, 243, 1) 0%, rgba(156, 197, 242, 1) 100%);;
+}
+
+.no_violet:hover {
+    color: blueviolet;
 }
 
 .barre_orange {
@@ -124,7 +129,6 @@ h1 {
 
 .bas_de_page {
     text-align: center;
-    width: 90%;
     border: 2px solid black;
 }
 
@@ -134,7 +138,7 @@ h1 {
 
 .img_deux {
     border: 2px solid black;
-    width: 11%;
+    width: 10%;
     padding: 0 10rem;
 }
 
@@ -160,11 +164,13 @@ h1 {
     padding: 0 10rem;
 }
 
+/* parent */
 .titre {
     padding: 0 10rem;
     margin-top: 4rem;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 2rem;
 }
 
 .etudiant {
