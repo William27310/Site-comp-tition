@@ -67,9 +67,16 @@ body {
 
 /* Milieu de page */
 
+/* parent */
+.affichage {
+    display: flex;
+    background-color: rgb(255, 250, 238);
+}
+
 /* enfants */
 .Textes {
     padding: 0 10rem;
+    margin-top: 4rem;
 }
 
 h1 {
@@ -77,11 +84,11 @@ h1 {
 }
 
 .primo-milieu {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(255, 250, 238);
+    width: 40rem;
+    height: 30rem;
 }
 
+/* parent */
 .tableau {
     display: flex;
     justify-content: space-around;
@@ -91,10 +98,10 @@ h1 {
 
 button {
     padding: 0.5rem;
-    color: white;
-    font-weight: bold;
-    background-color: blueviolet;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
     border-radius: 6px;
+    margin-right: 2rem;
 }
 
 .encadre {
@@ -133,9 +140,15 @@ button {
     background: linear-gradient(90deg,rgba(243, 229, 62, 1) 0%, rgba(249, 177, 47, 1) 100%);
 }
 
+.boutons_un {
+    border-color: blueviolet;
+    background-color: blueviolet;
+    color: white;
+}
 
-.no_violet:hover {
+.boutons_deux {
     color: blueviolet;
+    border-color: blueviolet;
 }
 
 .bas_de_page {
@@ -150,7 +163,7 @@ button {
 .background {
     background-color: rgb(255, 250, 238);
     padding-top: 1rem;
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 img {
