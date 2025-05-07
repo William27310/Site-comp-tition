@@ -97,9 +97,10 @@ h1 {
 }
 
 button {
-    padding: 0.5rem;
+    padding: 0.6rem;
     font-family: "Inter", sans-serif;
     font-weight: bolder;
+    font-size: 1rem;
     border-radius: 6px;
     margin-right: 2rem;
 }
@@ -148,7 +149,14 @@ button {
 
 .boutons_deux {
     color: blueviolet;
-    border-color: blueviolet;
+    border: none;
+    background-color: #FDFBE0;
+}
+
+.boutons_cinq {
+    color: blueviolet;
+    border: none;
+    background-color: rgb(235, 238, 251);
 }
 
 .bas_de_page {
@@ -209,6 +217,18 @@ img {
 
 .employeur {
     width: 40%;
+}
+
+.boutons_trois {
+    border-color: blueviolet;
+    background-color: rgb(255, 250, 238);
+    color: blueviolet;
+}
+
+.boutons_quatre {
+    color: blueviolet;
+    background-color: rgb(255, 250, 238);
+    border: none;
 }
 
 .mot {
