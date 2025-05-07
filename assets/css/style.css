@@ -79,7 +79,6 @@ body {
 .textes {
     padding: 0 10rem;
     margin-top: 4rem;
-    border: 2px solid black;
     margin-right: -20rem;
 }
 
@@ -91,7 +90,6 @@ h1 {
     width: 40rem;
     height: 30rem;
     margin-right: -5rem;
-    border: 2px solid black;
 }
 
 
@@ -101,7 +99,6 @@ h1 {
     justify-content: space-around;
     padding: 0 4rem;
     padding-bottom: 2rem;
-    border: 2px solid black;
 }
 
 button {
