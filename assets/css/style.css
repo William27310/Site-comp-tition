@@ -109,17 +109,26 @@ button {
     width: 40%;
     border-radius: 6px;
     padding: 1rem;
-
 }
 
 .barre_bleue {
-    margin-top: -1.5rem;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-top: -1rem;
     height: 0.5rem;
     background: linear-gradient(90deg, rgba(157, 169, 243, 1) 0%, rgba(156, 197, 242, 1) 100%);;
 }
 
 .barre_orange {
-    margin-top: -1.5rem;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-top: -1rem;
     height: 0.5rem;
     background: linear-gradient(90deg,rgba(243, 229, 62, 1) 0%, rgba(249, 177, 47, 1) 100%);
 }
