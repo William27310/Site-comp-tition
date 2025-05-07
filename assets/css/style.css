@@ -72,13 +72,13 @@ body {
 .affichage {
     display: flex;
     background-color: rgb(255, 250, 238);
-
+    padding-bottom: 4rem;
 }
 
 /* enfants */
 .textes {
     padding: 0 10rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
     margin-right: -20rem;
 }
 
@@ -92,13 +92,13 @@ h1 {
     margin-right: -5rem;
 }
 
-
 /* parent */
 .tableau {
     display: flex;
     justify-content: space-around;
     padding: 0 4rem;
     padding-bottom: 2rem;
+    margin-top: -4rem;
 }
 
 button {
